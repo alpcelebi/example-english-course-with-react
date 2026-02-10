@@ -17,7 +17,7 @@ export const PROGRAMS: Program[] = [
         description: "Oyunlar, şarkılar ve aktivitelerle İngilizceye eğlenceli bir başlangıç.",
         duration: "Haftada 2 Gün / 4 Saat",
         features: ["Oyun Tabanlı Öğrenme", "Yabancı Eğitmen Desteği", "Motor Beceri Gelişimi"],
-        image: "/images/preschool.jpg",
+        image: "/kuzemdilegitim-website/images/preschool.jpg",
         category: "kids"
     },
     {
@@ -27,7 +27,7 @@ export const PROGRAMS: Program[] = [
         description: "Okul müfredatına destek ve konuşma pratiği ağırlıklı eğitim.",
         duration: "Haftada 2 Gün / 4 Saat",
         features: ["Kelime Hazinesi", "Okuma & Yazma", "Speaking Club"],
-        image: "/images/primary.jpg",
+        image: "/kuzemdilegitim-website/images/primary.jpg",
         category: "kids"
     },
     {
@@ -37,7 +37,7 @@ export const PROGRAMS: Program[] = [
         description: "LGS hazırlık desteği ve akıcı konuşma odaklı program.",
         duration: "Haftada 2 Gün / 6 Saat",
         features: ["Sınav Hazırlık", "Grammar & Speaking", "Proje Bazlı Öğrenme"],
-        image: "/images/middle.jpg",
+        image: "/kuzemdilegitim-website/images/middle.jpg",
         category: "teens"
     },
     {
@@ -47,7 +47,7 @@ export const PROGRAMS: Program[] = [
         description: "Sadece İngilizce konuşulan, aktivite dolu hafta sonu kulübü.",
         duration: "Haftada 1 Gün / 3 Saat",
         features: ["Ana Dili İngilizce Olan Eğitmenler", "Drama & Tiyatro", "Sosyal Aktiviteler"],
-        image: "/images/speaking.jpg",
+        image: "/kuzemdilegitim-website/images/speaking.jpg",
         category: "kids"
     },
     {
@@ -57,7 +57,7 @@ export const PROGRAMS: Program[] = [
         description: "İş veya seyahat için hızlı ve etkili İngilizce.",
         duration: "Esnek Saatler",
         features: ["Birebir Ders İmkanı", "Business English", "Esnek Program"],
-        image: "/images/adults.jpg",
+        image: "/kuzemdilegitim-website/images/adults.jpg",
         category: "adults"
     }
 ];
