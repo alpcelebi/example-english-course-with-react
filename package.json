@@ -2,15 +2,11 @@
   "name": "example-english-course-with-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alpcelebi.github.io/example-english-course-with-react",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

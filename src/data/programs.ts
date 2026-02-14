@@ -17,7 +17,7 @@ export const PROGRAMS: Program[] = [
         description: "A fun start to English with games, songs, and activities.",
         duration: "2 Days / 4 Hours per Week",
         features: ["Game-Based Learning", "Foreign Instructor Support", "Motor Skill Development"],
-        image: "/example-english-course-with-react/images/preschool.jpg",
+        image: "/images/preschool.jpg",
         category: "kids"
     },
     {
@@ -27,7 +27,7 @@ export const PROGRAMS: Program[] = [
         description: "Education focused on speaking practice and school curriculum support.",
         duration: "2 Days / 4 Hours per Week",
         features: ["Vocabulary", "Reading & Writing", "Speaking Club"],
-        image: "/example-english-course-with-react/images/primary.jpg",
+        image: "/images/primary.jpg",
         category: "kids"
     },
     {
@@ -37,7 +37,7 @@ export const PROGRAMS: Program[] = [
         description: "High school entrance exam support and fluent speaking focused program.",
         duration: "2 Days / 6 Hours per Week",
         features: ["Exam Preparation", "Grammar & Speaking", "Project-Based Learning"],
-        image: "/example-english-course-with-react/images/middle.jpg",
+        image: "/images/middle.jpg",
         category: "teens"
     },
     {
@@ -47,7 +47,7 @@ export const PROGRAMS: Program[] = [
         description: "Activity-filled weekend club where only English is spoken.",
         duration: "1 Day / 3 Hours per Week",
         features: ["Native English Speaker Instructors", "Drama & Theater", "Social Activities"],
-        image: "/example-english-course-with-react/images/speaking.jpg",
+        image: "/images/speaking.jpg",
         category: "kids"
     },
     {
@@ -57,7 +57,7 @@ export const PROGRAMS: Program[] = [
         description: "Fast and effective English for business or travel.",
         duration: "Flexible Hours",
         features: ["One-on-One Lessons", "Business English", "Flexible Schedule"],
-        image: "/example-english-course-with-react/images/adults.jpg",
+        image: "/images/adults.jpg",
         category: "adults"
     }
 ];
