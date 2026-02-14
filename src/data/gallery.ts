@@ -1,32 +1,32 @@
 export const GALLERY_IMAGES = [
     {
         id: 1,
-        src: "/kuzemdilegitim-website/images/gallery-1.jpg",
-        alt: "Sınıf içi aktivite"
+        src: "/example-english-course-with-react/images/gallery-1.jpg",
+        alt: "Classroom Activity"
     },
     {
         id: 2,
-        src: "/kuzemdilegitim-website/images/gallery-2.jpg",
-        alt: "Grup çalışması"
+        src: "/example-english-course-with-react/images/gallery-2.jpg",
+        alt: "Group Study"
     },
     {
         id: 3,
-        src: "/kuzemdilegitim-website/images/gallery-3.jpg",
-        alt: "Etkinlik zamanı"
+        src: "/example-english-course-with-react/images/gallery-3.jpg",
+        alt: "Activity Time"
     },
     {
         id: 4,
-        src: "/kuzemdilegitim-website/images/gallery-4.jpg",
-        alt: "Mutlu öğrenciler"
+        src: "/example-english-course-with-react/images/gallery-4.jpg",
+        alt: "Happy Students"
     },
     {
         id: 5,
-        src: "/kuzemdilegitim-website/images/gallery-5.jpg",
-        alt: "Okuma saati"
+        src: "/example-english-course-with-react/images/gallery-5.jpg",
+        alt: "Reading Hour"
     },
     {
         id: 6,
-        src: "/kuzemdilegitim-website/images/gallery-6.jpg",
-        alt: "Okul binası"
+        src: "/example-english-course-with-react/images/gallery-6.jpg",
+        alt: "School Building"
     }
 ];

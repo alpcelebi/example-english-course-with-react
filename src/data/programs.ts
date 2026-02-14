@@ -17,7 +17,7 @@ export const PROGRAMS: Program[] = [
         description: "A fun start to English with games, songs, and activities.",
         duration: "2 Days / 4 Hours per Week",
         features: ["Game-Based Learning", "Foreign Instructor Support", "Motor Skill Development"],
-        image: "/kuzemdilegitim-website/images/preschool.jpg",
+        image: "/example-english-course-with-react/images/preschool.jpg",
         category: "kids"
     },
     {
@@ -27,7 +27,7 @@ export const PROGRAMS: Program[] = [
         description: "Education focused on speaking practice and school curriculum support.",
         duration: "2 Days / 4 Hours per Week",
         features: ["Vocabulary", "Reading & Writing", "Speaking Club"],
-        image: "/kuzemdilegitim-website/images/primary.jpg",
+        image: "/example-english-course-with-react/images/primary.jpg",
         category: "kids"
     },
     {
@@ -37,7 +37,7 @@ export const PROGRAMS: Program[] = [
         description: "High school entrance exam support and fluent speaking focused program.",
         duration: "2 Days / 6 Hours per Week",
         features: ["Exam Preparation", "Grammar & Speaking", "Project-Based Learning"],
-        image: "/kuzemdilegitim-website/images/middle.jpg",
+        image: "/example-english-course-with-react/images/middle.jpg",
         category: "teens"
     },
     {
@@ -47,17 +47,17 @@ export const PROGRAMS: Program[] = [
         description: "Activity-filled weekend club where only English is spoken.",
         duration: "1 Day / 3 Hours per Week",
         features: ["Native English Speaker Instructors", "Drama & Theater", "Social Activities"],
-        image: "/kuzemdilegitim-website/images/speaking.jpg",
+        image: "/example-english-course-with-react/images/speaking.jpg",
         category: "kids"
     },
     {
         id: "adults",
-        title: "Yetişkin İngilizcesi",
-        ageRange: "18+ Yaş",
-        description: "İş veya seyahat için hızlı ve etkili İngilizce.",
-        duration: "Esnek Saatler",
-        features: ["Birebir Ders İmkanı", "Business English", "Esnek Program"],
-        image: "/kuzemdilegitim-website/images/adults.jpg",
+        title: "Adult English",
+        ageRange: "18+ Years",
+        description: "Fast and effective English for business or travel.",
+        duration: "Flexible Hours",
+        features: ["One-on-One Lessons", "Business English", "Flexible Schedule"],
+        image: "/example-english-course-with-react/images/adults.jpg",
         category: "adults"
     }
 ];
