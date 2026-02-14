@@ -7,12 +7,12 @@ import { cn } from '../../lib/cn';
 import { CONTACT_INFO, ROUTES } from '../../lib/constants';
 
 const NAV_LINKS = [
-    { href: ROUTES.HOME, label: "Ana Sayfa" },
-    { href: ROUTES.COURSES, label: "Programlar" },
-    { href: ROUTES.ABOUT, label: "Hakkımızda" },
-    { href: ROUTES.GALLERY, label: "Galeri" },
-    { href: ROUTES.FAQ, label: "S.S.S." },
-    { href: ROUTES.CONTACT, label: "İletişim" },
+    { href: ROUTES.HOME, label: "Home" },
+    { href: ROUTES.COURSES, label: "Programs" },
+    { href: ROUTES.ABOUT, label: "About Us" },
+    { href: ROUTES.GALLERY, label: "Gallery" },
+    { href: ROUTES.FAQ, label: "FAQ" },
+    { href: ROUTES.CONTACT, label: "Contact" },
 ];
 
 export function Navbar() {
@@ -50,10 +50,10 @@ export function Navbar() {
                     </div>
                     <div className="flex flex-col">
                         <span className="text-xl font-heading font-bold text-ink leading-none tracking-tight">
-                            Kuzem
+                            Example
                         </span>
                         <span className="text-[10px] font-medium text-slate-400 tracking-[0.2em] uppercase">
-                            Eğitim Kurumları
+                            English Course
                         </span>
                     </div>
                 </Link>
@@ -86,7 +86,7 @@ export function Navbar() {
                         {CONTACT_INFO.phone}
                     </a>
                     <Button asChild size="sm" className="rounded-xl shadow-lg shadow-kuzemRed/20 hover:shadow-kuzemRed/30">
-                        <Link to={ROUTES.CONTACT}>Kayıt Ol</Link>
+                        <Link to={ROUTES.CONTACT}>Register</Link>
                     </Button>
                 </div>
 
@@ -125,7 +125,7 @@ export function Navbar() {
                             <Phone className="h-4 w-4" /> {CONTACT_INFO.phone}
                         </a>
                         <Button className="w-full" asChild>
-                            <Link to={ROUTES.CONTACT}>Hemen Kayıt Ol</Link>
+                            <Link to={ROUTES.CONTACT}>Register Now</Link>
                         </Button>
                     </div>
                 </div>

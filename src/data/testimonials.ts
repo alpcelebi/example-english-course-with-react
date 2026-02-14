@@ -1,23 +1,23 @@
 export const TESTIMONIALS = [
     {
         id: 1,
-        name: "Ayşe Y.",
-        role: "Veli (5 Yaş Grubu)",
-        comment: "Kızım İngilizce derslerini iple çekiyor. Öğretmenlerin ilgisi ve oyunla öğretme metodları harika.",
+        name: "Sarah J.",
+        role: "Parent (5 Year Old Group)",
+        comment: "My daughter looks forward to her English lessons. The teachers' attention and game-based teaching methods are wonderful.",
         avatar: "https://randomuser.me/api/portraits/women/44.jpg"
     },
     {
         id: 2,
-        name: "Mehmet K.",
-        role: "Veli (8 Yaş Grubu)",
-        comment: "Oğlumun okul notları yükseldi ama daha önemlisi özgüveni arttı. Artık turistlerle konuşmaya çalışıyor!",
+        name: "Michael K.",
+        role: "Parent (8 Year Old Group)",
+        comment: "My son's school grades improved, but more importantly, his self-confidence increased. He now tries to talk to tourists!",
         avatar: "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
         id: 3,
-        name: "Zeynep T.",
-        role: "Veli (12 Yaş Grubu)",
-        comment: "Kurumun disiplini ve takibi çok iyi. Her hafta bilgilendiriliyoruz. Kesinlikle tavsiye ederim.",
+        name: "Emily T.",
+        role: "Parent (12 Year Old Group)",
+        comment: "The institution's discipline and tracking are very good. We are informed every week. I definitely recommend it.",
         avatar: "https://randomuser.me/api/portraits/women/68.jpg"
     }
 ];

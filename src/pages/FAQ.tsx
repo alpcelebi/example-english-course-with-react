@@ -7,13 +7,13 @@ import { AccordionItem } from '../components/ui/Accordion';
 import { FAQ_ITEMS } from '../data/faq';
 import { cn } from '../lib/cn';
 
-const CATEGORIES = ["Tümü", "Kayıt", "Eğitim", "Program", "Ulaşım"];
+const CATEGORIES = ["All", "Registration", "Education", "Program", "Transportation"];
 
 export function FAQ() {
-    const [activeCategory, setActiveCategory] = useState("Tümü");
+    const [activeCategory, setActiveCategory] = useState("All");
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-    const filteredItems = activeCategory === "Tümü"
+    const filteredItems = activeCategory === "All"
         ? FAQ_ITEMS
         : FAQ_ITEMS.filter(item => item.category === activeCategory);
 
@@ -23,9 +23,9 @@ export function FAQ() {
             <main className="pt-24 pb-20 min-h-screen bg-gradient-to-b from-slate-50 to-white">
                 <Container className="max-w-4xl">
                     <SectionHeader
-                        badge="Yardım"
-                        title="Sıkça Sorulan Sorular"
-                        description="Merak ettiğiniz tüm detaylar."
+                        badge="Help"
+                        title="Frequently Asked Questions"
+                        description="All details you are wondering about."
                     />
 
                     {/* Categories */}
@@ -62,7 +62,7 @@ export function FAQ() {
                                 </AccordionItem>
                             ))
                         ) : (
-                            <p className="text-center text-slate-400 py-12">Bu kategoride soru bulunamadı.</p>
+                            <p className="text-center text-slate-400 py-12">No questions found in this category.</p>
                         )}
                     </div>
                 </Container>

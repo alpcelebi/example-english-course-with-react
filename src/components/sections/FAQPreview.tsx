@@ -16,9 +16,9 @@ export function FAQPreview() {
         <section className="section-padding bg-white">
             <Container className="max-w-4xl">
                 <SectionHeader
-                    badge="SSS"
-                    title="Sıkça Sorulan Sorular"
-                    description="Aklınıza takılan soruların cevaplarını burada bulabilirsiniz."
+                    badge="FAQ"
+                    title="Frequently Asked Questions"
+                    description="You can find answers to your questions here."
                 />
 
                 <div className="bg-slate-50/80 p-6 md:p-8 rounded-3xl mb-10 border border-slate-100">
@@ -37,7 +37,7 @@ export function FAQPreview() {
                 <div className="text-center">
                     <Button asChild variant="ghost" className="text-kuzemTeal hover:bg-kuzemTeal/5">
                         <Link to={ROUTES.FAQ}>
-                            Tüm Soruları Gör <ArrowRight className="ml-2 h-4 w-4" />
+                            View All Questions <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>
                     </Button>
                 </div>

@@ -16,9 +16,9 @@ export function Gallery() {
             <main className="pt-24 pb-20 bg-gradient-to-b from-slate-50 to-white min-h-screen">
                 <Container>
                     <SectionHeader
-                        badge="Galeri"
-                        title="Okulumuzdan Kareler"
-                        description="Mutlu öğrencilerimiz ve eğitim ortamımız."
+                        badge="Gallery"
+                        title="Snapshots from School"
+                        description="Our happy students and educational environment."
                     />
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">

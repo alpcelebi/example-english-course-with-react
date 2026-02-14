@@ -14,9 +14,9 @@ export function Programs() {
         <section className="section-padding bg-white">
             <Container>
                 <SectionHeader
-                    badge="Programlarımız"
-                    title="Eğitim Programları"
-                    description="Her yaş grubuna özel olarak hazırlanmış müfredatımızla tanışın."
+                    badge="Our Programs"
+                    title="Education Programs"
+                    description="Meet our curriculum specially prepared for every age group."
                 />
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -51,8 +51,8 @@ export function Programs() {
                                 </div>
                                 <div className="pt-2">
                                     <Button asChild className="w-full group/btn" variant="outline">
-                                        <a href={`https://wa.me/905551234567?text=Merhaba, ${program.title} hakkında bilgi almak istiyorum.`} target="_blank" rel="noopener noreferrer">
-                                            Detaylı Bilgi Al
+                                        <a href={`https://wa.me/905551234567?text=Hello, I want to get information about ${program.title}.`} target="_blank" rel="noopener noreferrer">
+                                            Get Detailed Info
                                             <ArrowUpRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
                                         </a>
                                     </Button>
@@ -65,7 +65,7 @@ export function Programs() {
                 <div className="text-center">
                     <Button asChild size="lg" className="btn-shine shadow-lg shadow-kuzemRed/20">
                         <Link to={ROUTES.COURSES}>
-                            Tüm Programları İncele <ArrowUpRight className="ml-2 h-5 w-5" />
+                            View All Programs <ArrowUpRight className="ml-2 h-5 w-5" />
                         </Link>
                     </Button>
                 </div>

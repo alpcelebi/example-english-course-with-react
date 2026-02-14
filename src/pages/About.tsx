@@ -5,9 +5,9 @@ import { SectionHeader } from '../components/layout/SectionHeader';
 import { CheckCircle2, Award, Users, Heart } from 'lucide-react';
 
 const STATS = [
-    { value: '500+', label: 'Mutlu Öğrenci', icon: Heart },
-    { value: '15+', label: 'Yıllık Deneyim', icon: Award },
-    { value: '30+', label: 'Uzman Eğitmen', icon: Users },
+    { value: '500+', label: 'Happy Students', icon: Heart },
+    { value: '15+', label: 'Years Experience', icon: Award },
+    { value: '30+', label: 'Expert Instructors', icon: Users },
 ];
 
 export function About() {
@@ -29,17 +29,17 @@ export function About() {
                                 />
                             </div>
                             <div>
-                                <SectionHeader title="Hakkımızda" description="Eğitimde fark yaratan yaklaşımımız." align="left" className="mb-8" badge="Biz Kimiz?" />
+                                <SectionHeader title="About Us" description="Our approach that makes a difference in education." align="left" className="mb-8" badge="Who We Are?" />
                                 <p className="text-slate-500 mb-6 text-lg leading-relaxed">
-                                    Kuzem Eğitim Kurumları olarak, çocukların dil öğrenim sürecini bir ders olmaktan çıkarıp, eğlenceli bir keşif yolculuğuna dönüştürüyoruz. 2010 yılından bu yana, binlerce öğrenciyi İngilizce ile tanıştırdık.
+                                    As Example English Course, we turn the language learning process of children from a lesson into a fun journey of discovery. Since 2010, we have introduced thousands of students to English.
                                 </p>
                                 <p className="text-slate-500 mb-8 text-lg leading-relaxed">
-                                    Modern eğitim materyalleri, teknoloji destekli sınıflar ve pedagojik formasyona sahip uzman kadromuzla, her çocuğun potansiyelini en üst seviyeye çıkarmayı hedefliyoruz.
+                                    We aim to maximize every child's potential with modern educational materials, technology-supported classrooms, and our expert staff with pedagogical formation.
                                 </p>
 
-                                <h3 className="font-heading font-bold text-xl mb-4 text-ink">Değerlerimiz</h3>
+                                <h3 className="font-heading font-bold text-xl mb-4 text-ink">Our Values</h3>
                                 <ul className="grid sm:grid-cols-2 gap-3">
-                                    {["Öğrenci Odaklılık", "Sürekli Gelişim", "Güven ve Şeffaflık", "Yenilikçilik"].map((item, idx) => (
+                                    {["Student Focus", "Continuous Improvement", "Trust and Transparency", "Innovation"].map((item, idx) => (
                                         <li key={idx} className="flex items-center gap-3 font-medium text-ink bg-slate-50 px-4 py-3 rounded-xl border border-slate-100">
                                             <CheckCircle2 className="text-kuzemTeal h-5 w-5 shrink-0" /> {item}
                                         </li>

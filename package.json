@@ -1,8 +1,8 @@
 {
-  "name": "kuzemdilegitim",
+  "name": "example-english-course-with-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alpcelebi.github.io/kuzemdilegitim-website",
+  "homepage": "https://alpcelebi.github.io/example-english-course-with-react",
   "type": "module",
   "scripts": {
     "dev": "vite",

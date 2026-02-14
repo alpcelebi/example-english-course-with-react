@@ -8,9 +8,9 @@ export function Testimonials() {
         <section className="section-padding bg-gradient-to-b from-white to-slate-50">
             <Container>
                 <SectionHeader
-                    badge="Referanslar"
-                    title="Velilerimiz Ne Diyor?"
-                    description="Yüzlerce mutlu öğrenci ve velimizin deneyimleri."
+                    badge="References"
+                    title="What Do Parents Say?"
+                    description="Experiences of hundreds of happy students and parents."
                 />
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

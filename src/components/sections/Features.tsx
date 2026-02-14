@@ -5,29 +5,29 @@ import { SectionHeader } from '../layout/SectionHeader';
 const FEATURES = [
     {
         icon: Gamepad2,
-        title: "Oyunlaştırma",
-        description: "Sıkıcı gramer kuralları yerine oyunlarla doğal öğrenme süreci.",
+        title: "Gamification",
+        description: "Natural learning process with games instead of boring grammar rules.",
         gradient: "from-rose-500 to-kuzemRed",
         bg: "bg-red-50",
     },
     {
         icon: Users,
-        title: "Küçük Gruplar",
-        description: "Maksimum 8-10 kişilik butik sınıflarda birebir ilgi.",
+        title: "Small Groups",
+        description: "One-on-one attention in boutique classes of maximum 8-10 people.",
         gradient: "from-kuzemTeal to-teal-500",
         bg: "bg-teal-50",
     },
     {
         icon: Award,
-        title: "Uzman Eğitmenler",
-        description: "Pedagojik formasyona sahip, çocuk dil eğitiminde uzman kadro.",
+        title: "Expert Instructors",
+        description: "Expert staff in child language education with pedagogical formation.",
         gradient: "from-amber-400 to-kuzemYellow",
         bg: "bg-amber-50",
     },
     {
         icon: ShieldCheck,
-        title: "Güvenli Ortam",
-        description: "Çocuklarınızın güvenliği ve konforu için tasarlanmış modern sınıflar.",
+        title: "Safe Environment",
+        description: "Modern classrooms designed for your children's safety and comfort.",
         gradient: "from-emerald-500 to-green-500",
         bg: "bg-emerald-50",
     }
@@ -38,9 +38,9 @@ export function Features() {
         <section className="section-padding bg-white relative">
             <Container>
                 <SectionHeader
-                    badge="Avantajlarımız"
-                    title="Neden Kuzem?"
-                    description="Bizi diğerlerinden ayıran özelliklerimiz ve eğitim felsefemiz."
+                    badge="Our Advantages"
+                    title="Why Choose Us?"
+                    description="Our features and educational philosophy that distinguish us from others."
                 />
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

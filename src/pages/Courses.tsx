@@ -11,10 +11,10 @@ import { CheckCircle2 } from 'lucide-react';
 import { cn } from '../lib/cn';
 
 const CATEGORIES = [
-    { id: 'all', label: 'Tümü' },
-    { id: 'kids', label: 'Çocuk (4-10)' },
-    { id: 'teens', label: 'Genç (11-14)' },
-    { id: 'adults', label: 'Yetişkin' },
+    { id: 'all', label: 'All' },
+    { id: 'kids', label: 'Kids (4-10)' },
+    { id: 'teens', label: 'Teens (11-14)' },
+    { id: 'adults', label: 'Adults' },
 ];
 
 export function Courses() {
@@ -30,9 +30,9 @@ export function Courses() {
             <main className="min-h-screen pt-24 pb-20 bg-gradient-to-b from-slate-50 to-white">
                 <Container>
                     <SectionHeader
-                        badge="Eğitim"
-                        title="Eğitim Programlarımız"
-                        description="Çocuğunuzun yaşına ve seviyesine uygun programı seçin."
+                        badge="Education"
+                        title="Our Education Programs"
+                        description="Choose the program suitable for your child's age and level."
                     />
 
                     {/* Filter */}
@@ -74,7 +74,7 @@ export function Courses() {
                                     <p className="text-slate-500 text-sm leading-relaxed">{program.description}</p>
 
                                     <div className="space-y-3">
-                                        <h4 className="font-bold text-xs text-slate-400 uppercase tracking-wider">Kazanımlar</h4>
+                                        <h4 className="font-bold text-xs text-slate-400 uppercase tracking-wider">Gains</h4>
                                         <ul className="space-y-2">
                                             {program.features.map((feature, idx) => (
                                                 <li key={idx} className="flex items-start gap-2 text-sm text-slate-600">
@@ -86,14 +86,14 @@ export function Courses() {
                                     </div>
 
                                     <div className="p-4 bg-slate-50 rounded-2xl text-center border border-slate-100">
-                                        <span className="block text-xs text-slate-400 mb-1 font-medium">Ders Süresi</span>
+                                        <span className="block text-xs text-slate-400 mb-1 font-medium">Lesson Duration</span>
                                         <span className="font-bold text-ink text-sm">{program.duration}</span>
                                     </div>
                                 </CardContent>
                                 <CardFooter className="pt-4 border-t border-slate-100">
                                     <Button asChild className="w-full" variant="whatsapp">
-                                        <a href={`https://wa.me/905551234567?text=Merhaba, ${program.title} için fiyat bilgisi almak istiyorum.`} target="_blank" rel="noopener noreferrer">
-                                            WhatsApp'tan Fiyat Al
+                                        <a href={`https://wa.me/905551234567?text=Hello, I want to get price information for ${program.title}.`} target="_blank" rel="noopener noreferrer">
+                                            Get Price via WhatsApp
                                         </a>
                                     </Button>
                                 </CardFooter>

@@ -19,12 +19,12 @@ export function Footer() {
                                 K
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-xl font-heading font-bold leading-none">Kuzem</span>
-                                <span className="text-[10px] font-medium text-white/40 tracking-[0.2em] uppercase">Eğitim Kurumları</span>
+                                <span className="text-xl font-heading font-bold leading-none">Example</span>
+                                <span className="text-[10px] font-medium text-white/40 tracking-[0.2em] uppercase">English Course</span>
                             </div>
                         </Link>
                         <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-                            Çocuklarınızın geleceği için en iyi İngilizce eğitimi. Eğlenerek öğrenen, özgüvenli bireyler yetiştiriyoruz.
+                            Best English education for your children's future. We raise confident individuals who learn while having fun.
                         </p>
                         <div className="flex gap-3">
                             <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-white/60 hover:bg-kuzemRed hover:text-white hover:border-kuzemRed transition-all duration-300">
@@ -38,14 +38,14 @@ export function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="font-heading font-bold text-sm uppercase tracking-wider text-white/40 mb-6">Hızlı Linkler</h3>
+                        <h3 className="font-heading font-bold text-sm uppercase tracking-wider text-white/40 mb-6">Quick Links</h3>
                         <ul className="space-y-4">
                             {[
-                                { to: ROUTES.COURSES, label: "Eğitim Programları" },
-                                { to: ROUTES.ABOUT, label: "Hakkımızda" },
-                                { to: ROUTES.GALLERY, label: "Galeri" },
-                                { to: ROUTES.FAQ, label: "Sıkça Sorulan Sorular" },
-                                { to: ROUTES.CONTACT, label: "İletişim" },
+                                { to: ROUTES.COURSES, label: "Education Programs" },
+                                { to: ROUTES.ABOUT, label: "About Us" },
+                                { to: ROUTES.GALLERY, label: "Gallery" },
+                                { to: ROUTES.FAQ, label: "FAQ" },
+                                { to: ROUTES.CONTACT, label: "Contact" },
                             ].map(link => (
                                 <li key={link.to}>
                                     <Link to={link.to} className="text-white/60 hover:text-white transition-colors text-sm flex items-center gap-1 group">
@@ -59,7 +59,7 @@ export function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h3 className="font-heading font-bold text-sm uppercase tracking-wider text-white/40 mb-6">İletişim</h3>
+                        <h3 className="font-heading font-bold text-sm uppercase tracking-wider text-white/40 mb-6">Contact</h3>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <MapPin className="h-4 w-4 text-kuzemRed shrink-0 mt-0.5" />
@@ -94,10 +94,10 @@ export function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-white/5 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-white/30 text-sm">
-                        &copy; {new Date().getFullYear()} Kuzem Eğitim Kurumları. Tüm hakları saklıdır.
+                        &copy; {new Date().getFullYear()} Example English Course. All rights reserved.
                     </p>
                     <p className="text-white/20 text-xs">
-                        ❤️ Sevgiyle tasarlandı
+                        ❤️ Designed with love
                     </p>
                 </div>
             </Container>

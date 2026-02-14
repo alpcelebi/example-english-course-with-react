@@ -13,9 +13,9 @@ export function Contact() {
             <main className="pt-24 pb-20 bg-gradient-to-b from-slate-50 to-white min-h-screen">
                 <Container>
                     <SectionHeader
-                        badge="Bize Ulaşın"
-                        title="İletişim"
-                        description="Bize ulaşarak detaylı bilgi alabilirsiniz."
+                        badge="Contact Us"
+                        title="Contact"
+                        description="You can contact us for detailed information."
                     />
 
                     <div className="grid lg:grid-cols-2 gap-12 mb-12">
@@ -28,14 +28,14 @@ export function Contact() {
                                         <Phone className="h-5 w-5 text-white" />
                                     </div>
                                     <div>
-                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Telefon & WhatsApp</h3>
-                                        <p className="text-slate-500 text-sm mb-4">Hafta içi ve Cumartesi 09:00 - 18:00 arası bize ulaşabilirsiniz.</p>
+                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Phone & WhatsApp</h3>
+                                        <p className="text-slate-500 text-sm mb-4">You can reach us between 09:00 - 18:00 on weekdays and Saturdays.</p>
                                         <div className="flex flex-col sm:flex-row gap-3">
                                             <Button asChild variant="default" size="sm">
-                                                <a href={SOCIAL_LINKS.call}>Hemen Ara</a>
+                                                <a href={SOCIAL_LINKS.call}>Call Now</a>
                                             </Button>
                                             <Button asChild variant="whatsapp" size="sm">
-                                                <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp'tan Yaz</a>
+                                                <a href={SOCIAL_LINKS.whatsapp} target="_blank" rel="noopener noreferrer">Write on WhatsApp</a>
                                             </Button>
                                         </div>
                                     </div>
@@ -49,11 +49,11 @@ export function Contact() {
                                         <MapPin className="h-5 w-5 text-white" />
                                     </div>
                                     <div>
-                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Adres</h3>
+                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Address</h3>
                                         <p className="text-slate-500 text-sm mb-4">{CONTACT_INFO.address}</p>
                                         <Button asChild variant="outline" size="sm">
                                             <a href={CONTACT_INFO.mapsEmbedUrl} target="_blank" rel="noopener noreferrer">
-                                                Yol Tarifi Al <ExternalLink className="ml-2 h-3 w-3" />
+                                                Get Directions <ExternalLink className="ml-2 h-3 w-3" />
                                             </a>
                                         </Button>
                                     </div>
@@ -67,9 +67,9 @@ export function Contact() {
                                         <Clock className="h-5 w-5 text-white" />
                                     </div>
                                     <div>
-                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Çalışma Saatleri</h3>
+                                        <h3 className="font-heading font-bold text-lg mb-1 text-ink">Working Hours</h3>
                                         <p className="text-slate-500 text-sm">{CONTACT_INFO.workingHours}</p>
-                                        <p className="text-slate-400 text-xs mt-1">Pazar günleri kapalıyız.</p>
+                                        <p className="text-slate-400 text-xs mt-1">We are closed on Sundays.</p>
                                     </div>
                                 </div>
                             </div>
