@@ -76,7 +76,7 @@ export function Hero() {
 
                             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-glass-md border-2 border-white/50">
                                 <img
-                                    src="/kuzemdilegitim-website/images/hero.jpg"
+                                    src="/images/hero.jpg"
                                     alt="Happy children learning English"
                                     className="w-full h-full object-cover"
                                 />

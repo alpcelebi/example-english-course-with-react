@@ -23,7 +23,7 @@ export function About() {
                             <div className="relative">
                                 <div className="absolute -inset-4 bg-gradient-to-br from-kuzemRed/10 to-kuzemTeal/10 rounded-[3rem] blur-2xl opacity-60" />
                                 <img
-                                    src="/kuzemdilegitim-website/images/about.jpg"
+                                    src="/images/about.jpg"
                                     alt="Kurumsal"
                                     className="relative rounded-3xl shadow-glass-md w-full object-cover aspect-[4/3]"
                                 />
