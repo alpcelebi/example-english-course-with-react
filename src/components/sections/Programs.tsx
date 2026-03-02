@@ -25,7 +25,7 @@ export function Programs() {
                             {/* Image */}
                             <div className="h-52 overflow-hidden relative">
                                 <img
-                                    src={program.image}
+                                    src={`${import.meta.env.BASE_URL}${program.image.replace(/^\//, '')}`}
                                     alt={program.title}
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />

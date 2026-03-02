@@ -30,7 +30,7 @@ export function Gallery() {
                             >
                                 <img
                                     loading="lazy"
-                                    src={img.src}
+                                    src={`${import.meta.env.BASE_URL}${img.src.replace(/^\//, '')}`}
                                     alt={img.alt}
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
@@ -47,7 +47,7 @@ export function Gallery() {
             <Modal isOpen={!!selectedImage} onClose={() => setSelectedImage(null)} className="bg-transparent shadow-none max-w-5xl">
                 {selectedImage && (
                     <img
-                        src={selectedImage}
+                        src={`${import.meta.env.BASE_URL}${selectedImage.replace(/^\//, '')}`}
                         alt="Gallery Preview"
                         className="w-full h-auto max-h-[90vh] object-contain rounded-2xl"
                     />

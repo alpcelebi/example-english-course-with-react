@@ -58,7 +58,7 @@ export function Courses() {
                             <Card key={program.id} className="flex flex-col h-full hover:shadow-card-hover transition-all duration-500 border-slate-100 hover:border-transparent">
                                 <div className="h-56 overflow-hidden relative">
                                     <img
-                                        src={program.image}
+                                        src={`${import.meta.env.BASE_URL}${program.image.replace(/^\//, '')}`}
                                         alt={program.title}
                                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                                     />
